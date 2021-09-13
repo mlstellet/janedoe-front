@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;600&display=swap');
+
+body {
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    border: 2px solid #e0e0e0;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+footer p {
+    padding: 6px;
+    margin: 0;
+}
+
+/* HOME */
+
+section.banner-principal {
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/jane.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ABOUT */
+
+section.about {
+    text-align: center;
+    font-size: 22px;
+    margin: 50px;
+}
+
+section.about h2{
+    font-size: 40px;
+}
+
+section.about cite {
+    font-weight: 700;
+    font-style: normal;
+    display: block;
+  
+}
+
+section.about img {
+    width: 450px;
+}
+
+/* MUSIC */
+
+section.music {
+    width: 900px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+
+span.name {
+    text-transform: uppercase;
+}
+
+/* CONTACT */
+
+section.contact {
+    width: 900px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+section.contact article {
+    border-bottom: 2px solid #e0e0e0;
+}
